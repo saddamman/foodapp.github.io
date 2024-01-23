@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import Input from "../../UI/Input";
 import classes from "./MealItemForm.module.css";
-import CartContext from "../../../store/cart-context";
+// import CartContext from "../../../store/cart-context";
 
 const MealItemForm = (props) => {
   const [amountIsValid, setAmountIsValid] = useState(true);
